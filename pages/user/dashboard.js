@@ -11,7 +11,7 @@ import UserHeaderStats from "components/Headers/UserHeaderStats.js";
 
 // layout for page
 
-import User from "layouts/User";
+import User from "../layouts/User";
 
 export default function Dashboard() {
   return (
