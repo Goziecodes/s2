@@ -10,6 +10,7 @@ export default function CardStats({
   statDescripiron,
   statIconName,
   statIconColor,
+  accountNumber,
 }) {
   return (
     <>
@@ -34,22 +35,16 @@ export default function CardStats({
                 <i className={statIconName}></i>
               </div>
             </div>
-          </div>
-          <p className="text-sm text-blueGray-400 mt-4">
+          </div> 
+          {
+            accountNumber &&  <p className="text-sm text-blueGray-400 mt-4">
             <span className={statPercentColor + " mr-2"}>
-              <i
-                className={
-                  statArrow === "up"
-                    ? "fas fa-arrow-up"
-                    : statArrow === "down"
-                    ? "fas fa-arrow-down"
-                    : ""
-                }
-              ></i>{" "}
-              {statPercent}%
+              
+              {accountNumber}
             </span>
-            <span className="whitespace-nowrap">{statDescripiron}</span>
           </p>
+          }
+         
         </div>
       </div>
     </>
