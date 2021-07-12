@@ -36,7 +36,7 @@ import React from "react";
                 "text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full bg-orange-500" 
               }
             >
-             <i class="fas fa-check"></i>
+             <i className="fas fa-check"></i>
             </div>
             <h5 className="text-blueGray-400 uppercase font-bold text-xs text-center">
               Activate <br/> ATM
@@ -49,7 +49,7 @@ import React from "react";
                 "text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full bg-orange-500" 
               }
             >
-              <i class="fab fa-cc-mastercard"></i>
+              <i className="fab fa-cc-mastercard"></i>
             </div>
             <h5 className="text-blueGray-400 uppercase font-bold text-xs text-center">
               Atm <br/> Withdrawal
@@ -62,7 +62,7 @@ import React from "react";
                 "text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full bg-orange-500" 
               }
             >
-              <i class="fas fa-comment"></i>
+              <i className="fas fa-comment"></i>
             </div>
             <h5 className="text-blueGray-400 uppercase font-bold text-xs text-center">
               Lodge <br/> Complaint
