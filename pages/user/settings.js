@@ -7,7 +7,9 @@ import CardProfile from "components/Cards/CardProfile.js";
 
 // layout for page
 
-import User from "layouts/User.js";
+// import User from "layouts/User.js";
+import User from "../../layouts/user";
+
 
 export default function Settings() {
   return (
